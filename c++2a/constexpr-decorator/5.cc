@@ -6,7 +6,7 @@ using namespace std;
 template<typename T>
 constexpr auto nextstep(const T& t)
 {
-    if constexpr (is_integral<T>::value) {
+    if constexpr (is_integral_v<T>) {
         return t + 1;
     } else {
         return t + 0.001;
