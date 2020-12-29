@@ -3,7 +3,7 @@
 
 using namespace std;
 
-struct A  {
+struct A {
     virtual void foo()
     {
         cout << "A::foo() is called" << endl;
